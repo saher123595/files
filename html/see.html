@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>see video how to work</title>
+    <meta name="description" content="see video how to work">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style/video.css">
+    <script src="https://kit.fontawesome.com/80bc8a1395.js"></script>
+</head>
+
+<body class="body2">
+    <a href="../index.html">back</a>
+    <div class="video">
+        <video id="video">
+            <source src="../video/video 1.mp4">
+        </video>
+        <div class="div">
+            <div class="range">
+                <input type="range" value="0" id="range">
+            </div>
+            <div>
+                <div class="time">
+                    <button>
+                    <i class="fa fa-play" id="play" aria-hidden="true"></i>
+                </button>
+
+                    <h2>
+                        <span id="timeout">0</span>
+                        <span>/</span>
+                        <span id="timein">3</span>
+                    </h2>
+                </div>
+                <i class="fas fa-expand fa-2x" id="full"></i>
+            </div>
+
+        </div>
+        <div class="overlay">
+            <div class="loading"></div>
+        </div>
+    </div>
+    <script src="../js/video.js"></script>
+</body>
+
+</html>
